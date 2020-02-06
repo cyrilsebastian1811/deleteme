@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/vagrant/app/app.csproj": {}
+    "/Users/cyril_work/Desktop/devops/Assignments/assign-3/deleteme/app.csproj": {}
   },
   "projects": {
-    "/home/vagrant/app/app.csproj": {
+    "/Users/cyril_work/Desktop/devops/Assignments/assign-3/deleteme/app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vagrant/app/app.csproj",
+        "projectUniqueName": "/Users/cyril_work/Desktop/devops/Assignments/assign-3/deleteme/app.csproj",
         "projectName": "app",
-        "projectPath": "/home/vagrant/app/app.csproj",
-        "packagesPath": "/home/vagrant/.nuget/packages/",
-        "outputPath": "/home/vagrant/app/obj/",
+        "projectPath": "/Users/cyril_work/Desktop/devops/Assignments/assign-3/deleteme/app.csproj",
+        "packagesPath": "/Users/cyril_work/.nuget/packages/",
+        "outputPath": "/Users/cyril_work/Desktop/devops/Assignments/assign-3/deleteme/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/vagrant/.nuget/NuGet/NuGet.Config"
+          "/Users/cyril_work/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -51,16 +48,23 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     }
